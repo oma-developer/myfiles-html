@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snapchat Login</title>
+  <link rel="stylesheet" href="snapchat-login.css">
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.input-label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333333;
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #f8f6f6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #f8f6f6;
+}
+
+.alt-login {
+  display: block;
+  text-align: center;
+  font-size: 13.3px;
+  color: #00b1ff;
+  text-decoration: none;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.next-btn {
+  width: 100px;
+  height: 50px;
+  padding: 12px;
+  background-color: #00b1ff;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.signup-link {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="login-box">
+      <div class="logo">
+        <img src="./snapchat/images/snapchat-app-icon.svg" alt="Snapchat logo" class="logo-img">
+      </div>
+      <h1 class="title">Log in to Snapchat</h1>
+      <form>
+        <label class="input-label">Username or Email</label>
+        <input type="text" class="input-box">
+        <a href="#" class="alt-login">Use phone number instead</a>
+        <button type="submit" class="next-btn">Next</button>
+      </form>
+      <div class="signup">
+        <span>New To Snapchat?</span>
+        <a href="#" class="signup-link">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

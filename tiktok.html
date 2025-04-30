@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Login</title>
+  <link rel="stylesheet" href="tiktok-login.css">
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 50px 20px;
+    }
+    .help-link{
+      display: inline;
+    }
+    h1 {
+      text-align: center;
+      
+    }
+    .login-method-link {
+      margin-left: 150px;
+    }
+    .input-label {
+      font-size: 13px;
+      margin-bottom: 5px;
+      display: block;
+      font-size: 50px;
+    }
+    .select-box {
+      background-color: rgb(238, 241, 241);
+      height: 50px;
+      width: 100px;
+      font-size: 17px;
+      font-weight: 400;
+      border-radius: 7px;
+      border: 1px solid rgb(223, 226, 226);
+
+    }
+    .input-box {
+      background-color:;
+      height: 50px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <img src="./tiktok/images/Screenshot 2025-04-24 at 21-55-39 Log in TikTok.png" alt="TikTok logo" class="logo">
+    <a href="#" class="help-link">Feedback and help</a>
+  </header>
+
+  <div class="container">
+    <div class="login-box">
+      <h1 class="login-title">Log in</h1>
+      
+      <div class="login-options">
+        <span class="login-method active">Phone</span>
+        <a href="#" class="login-method-link">Log in with email or username</a>
+      </div>
+
+      <div class="input-group">
+        <label for="country" class="input-label"></label>
+        <select id="country" class="select-box">
+          <option value="+234">NG +234</option>
+          <option value="+1">US +1</option>
+          <option value="+44">UK +44</option>
+        </select>
+        <input type="text" placeholder="Phone number" class="input-box">
+      </div>
+
+      <div class="input-group">
+        <input type="text" placeholder="Enter 6-digit code" class="input-box code-input">
+        <button class="send-code-btn">Send code</button>
+      </div>
+
+      <a href="#" class="password-link">Log in with password</a>
+
+      <div class="signup-section">
+        <span>Don’t have an account?</span>
+        <a href="#" class="signup-link">Sign up</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <button class="lang-btn">English (US)</button>
+    <span class="copyright">© 2025 TikTok</span>
+  </footer>
+</body>
+</html>
